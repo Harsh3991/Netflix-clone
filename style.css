@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-nav{
+    /* border: 2px solid red; */
+    height: 120vh;
+    background: url("./assets/Title-Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 25px 15px 13px 20px; */
+    filter: contrast(1);
+}
+
+#child-nav{
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 2PX solid red; */
+    background-color: rgb(0, 0, 0, 0.1);
+}
+#child-nav>div{
+    /* border: 2px solid rgb(139, 37, 0); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#right-side-nav{
+    width: 35vw;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 2% ;
+    
+}
+
+#left-side-nav{
+    width: 11vw;
+    margin-right: 40px;
+    
+}
+
+#main-logo{
+    /* border: 2px solid red; */
+    height: 35px;
+}
+
+#Show{
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-top: 50vh;
+    padding: 2%;
+}
+#Show>h1{
+    /* border: 2px solid red; */
+    font-size: 120px;
+    height: 130px;
+    color: white;
+}
+#Show>div{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    color: white;
+}
+
+
+#play-button>button{
+    /* border: 2px solid red; */
+    width: 100px;
+    height: 45px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#play-button>button>img{
+    /* border: 2px solid red; */
+    width: 23px;
+    height: 26px;
+}
+
+#button1{
+    background-color: white;
+}
+#button2{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: white;
+}
+
+#play-button{
+    width: 230x;
+    height:60px;
+    
+}
+
+#Show>div>img{
+    /* border: 2px solid red; */
+    width: 28px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#add-btn{
+    position: relative;
+    left: 96vw;
+}
+
+#see-again{
+    /* border: 2px solid red; */
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    color: white;
+}
+#see-again>img{
+    height: 13px;
+}
+
+#see-again-movies{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+#see-again-movies>img{
+    margin-right: 1%;
+}
+
+#top-ten-heading{
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-size: 10px;
+    padding-left: 2%;
+}
+#top-ten-heading>img{
+    height: 20px;
+}
+
+#top-ten{
+    /* border: 2px solid red; */
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#top-ten>div{
+    display: flex;
+    margin-right: 10px;
+}
+
+#trending-heading{
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-size: 10px;
+    padding-left: 2%;
+    padding-top: 6%;
+}
+
+
+#Si-fi-shows-heading{
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-size: 10px;
+    padding-left: 2%;
+}
+
+#Si-fi-shows{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6%;
+}
+
+footer{
+    /* border: 2px solid red; */
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 0 3vw 0 3vw;
+}
+footer>div{
+    /* border: 2px solid red; */
+    width: 15vw;
+    padding-top: 7vh;
+}
+footer>div>p{
+    margin-bottom: 3vh;
+}
+footer>div>img{
+    margin-bottom: 3vh;
+}
+
+#social-media{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+#trending-movies{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+#footer-btn{
+    border: 2px solid rgb(255, 255, 255);
+    height: 24px;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+}
